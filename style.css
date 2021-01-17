@@ -1,0 +1,49 @@
+.box{
+    width: 300px;
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+.checkbox {
+    visibility: hidden;
+    position: absolute;
+}
+.checkbox:checked ~.check{
+    background-color: #00EA90;
+    border-color: #00EA90;
+    box-shadow: 0px 0px 0px 4px #fff inset;
+}
+.check{
+    width: 20px;
+    height: 20px;
+    border: 3px solid #5c2d8a;
+    display: flex;
+    border-radius: 5px;
+    position: relative;
+}
+.text{
+    color: #424242;
+    font-weight: 900;
+    font-size: 26px;
+    position: absolute;
+    padding-left: 40px;
+    cursor: pointer;
+}
+.radiobutton {
+    visibility: hidden;
+    position: absolute;
+}
+.radiobutton:checked ~.rad{
+    background-color: #00EA90;
+    border-color: #00EA90;
+    box-shadow: 0px 0px 0px 4px #fff inset;
+}
+.rad{
+    width: 20px;
+    height: 20px;
+    border: 3px solid #5c2d8a;
+    display: flex;
+    border-radius: 100px;
+    position: relative;
+}
